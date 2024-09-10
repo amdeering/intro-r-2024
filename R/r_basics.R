@@ -43,6 +43,21 @@ x <- "this is a string"
 # data structures ----
 # vectors have a single dimension, like a column or row of data
 
+a <- c("1", "2", "3")
+b <- c(1, 2, 3)
+#vectorized operation
+b + 1
+
+#will allow mixed types, but converts all to the most workable type
+c <- c(1, 2, "3") #turns to character
+
+b < 3 #elementwise comparison
+any(b < 3) #gives one answer
+all(b < 3)
+
+3 %in% b #testing membership in a vector
+!4 %in% b #use ! for negation, placed ahead of 4
+
 # data frames - the key structure for data science, multi-dimensional
 #   collections of vectors
 
