@@ -36,9 +36,9 @@ typeof(TRUE)
 42 == "42" #equality can cross types. beware of rounding.
 identical(42, "42") #type matters for identity
 
-
 # variables ----
 
+x <- "this is a string"
 
 # data structures ----
 # vectors have a single dimension, like a column or row of data
