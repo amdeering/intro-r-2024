@@ -9,6 +9,32 @@ T
 TRUE
 
 # Operators ----
+2 + 3 #use spaces to make things more legible
+
+##comparison
+2 == 2 #tests for equality
+2 != 1 # ! means not
+2 < 3
+
+TRUE == 1 #True has a value of 1, false = 0
+
+#can also use isTRUE() function
+?isTRUE #queries built-in help
+
+2 < 3 & 1 < 2
+2 < 3 | 2 > 3
+
+#types
+
+"joe" #string or character type
+typeof("joe")
+42 #numeric type (double precision, floating point)
+typeof(42)
+TRUE #logical or boolean
+typeof(TRUE)
+
+42 == "42" #equality can cross types. beware of rounding.
+identical(42, "42") #type matters for identity
 
 
 # variables ----
