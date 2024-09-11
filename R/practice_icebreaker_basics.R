@@ -47,3 +47,4 @@ boxplot(icebreaker_answers$travel_speed ~ icebreaker_answers$travel_mode)
 hist(icebreaker_answers$travel_speed)
 #my own tests
 agg_icebreakers <- aggregate(travel_speed ~ travel_mode, data=icebreaker_answers, FUN = mean)
+# cols to average ~ cols to keep, data = df
