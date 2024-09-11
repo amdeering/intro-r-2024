@@ -8,7 +8,7 @@ library(readxl)
 #load data
 df_ice <- read_excel("data/icebreaker_answers.xlsx")
 
-#diagraph for time series
+#dygraph for time series
 
 #ggplot2
 
