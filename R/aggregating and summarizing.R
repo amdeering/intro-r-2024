@@ -1,4 +1,4 @@
-#### Aggregating ans Summarizing data ####
+#### Aggregating and Summarizing data ####
 #R training day 3
 
 #load library
